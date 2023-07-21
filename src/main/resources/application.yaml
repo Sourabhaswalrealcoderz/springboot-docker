@@ -1,0 +1,27 @@
+
+server:
+  use-forward-headers: true
+spring:
+  cloud:
+    gcp:
+      sql:
+        url: jdbc:mysql://34.29.174.190:3306/fullstack
+        instance-connection-name: production-378812:us-central1:demo
+  datasource :
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: sourabhaswalrealcoderz
+    password: sourabhaswalrealcoderz
+    continue-on-error : true
+    initialization-mode : always
+    hibernate.jdbc.time_zone : IST
+    hikari:
+      minimumIdle: 20
+      maximumPoolSize: 1000
+      maxLifeTime: 600000
+      idleTimeout: 120000
+      connectionTimeout: 600000
+      leakDetectionThreshold: 600000
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    hibernate.ddl-auto: update
