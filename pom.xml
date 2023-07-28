@@ -12,6 +12,7 @@
     <groupId>com.realcoderz</groupId>
 	<artifactId>fullstack-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>fullstack-backend</name>
     <description> A Gateway to provide the access of all other microservices</description>
     <properties>
