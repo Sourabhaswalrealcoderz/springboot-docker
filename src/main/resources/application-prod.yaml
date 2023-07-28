@@ -5,7 +5,7 @@ spring:
     gcp:
       sql:
         database-name: fullstack
-        instance-connection-name: staging-378812:us-central1:realcoderz
+        instance-connection-name: production-378812:us-central1:demo
   datasource :
     username: realcoderzstagging
     password: realcoderzstagging
