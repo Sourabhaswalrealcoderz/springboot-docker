@@ -11,7 +11,6 @@ import java.util.List;
 
 // Author : Sourabh Aswal T-30may2023
 @RestController
-@CrossOrigin("*")
 public class UserController {
 
     @Autowired
