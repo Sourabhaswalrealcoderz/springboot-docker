@@ -7,8 +7,8 @@ spring:
         database-name: fullstack
         instance-connection-name: production-378812:us-central1:demo
   datasource :
-    username: realcoderzstagging
-    password: realcoderzstagging
+    username: sourabhaswalrealcoderz
+    password: sourabhaswalrealcoderz
     continue-on-error : true
     initialization-mode : always
     hibernate.jdbc.time_zone : IST
