@@ -33,10 +33,10 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-		<dependency>
-        <groupId>jakarta.persistence</groupId>
-        <artifactId>jakarta.persistence-api</artifactId>
-        <version>3.0.0</version> <!-- Use the appropriate version -->
+	 <dependency>
+        <groupId>javax.persistence</groupId>
+        <artifactId>javax.persistence</artifactId>
+        <version>2.2</version> <!-- Use the appropriate version -->
     </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
