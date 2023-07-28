@@ -1,0 +1,25 @@
+server:
+  use-forward-headers: true
+spring:
+  cloud:
+    gcp:
+      sql:
+        database-name: fullstack
+        instance-connection-name: staging-378812:us-central1:realcoderz
+  datasource :
+    username: realcoderzstagging
+    password: realcoderzstagging
+    continue-on-error : true
+    initialization-mode : always
+    hibernate.jdbc.time_zone : IST
+    hikari:
+      minimumIdle: 20
+      maximumPoolSize: 500
+      maxLifeTime: 600000
+      idleTimeout: 120000
+      connectionTimeout: 600000
+      leakDetectionThreshold: 600000
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    hibernate.ddl-auto: update
