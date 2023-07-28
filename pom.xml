@@ -9,7 +9,7 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> 
     </parent>
-    <gr<groupId>com.realcoderz</groupId>
+    <groupId>com.realcoderz</groupId>
 	<artifactId>fullstack-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
